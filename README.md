@@ -1,15 +1,18 @@
 # Robot Package Template
 
 ## To clone package for diffdrive_arduino :
+```sh
+ cd ros2_ws/src
  git clone https://github.com/Buzzology/diffdrive_arduino.git
   
-## for ros2_humble go to diffdrive_arduino directory and run this : 
+# for ros2_humble go to diffdrive_arduino directory and run this : 
   git checkout 3883c0
-## for serial
+# for serial
   git clone git clone https://github.com/joshnewans/serial
 
-## for rplidar ld20(same with ld14p)
+# for rplidar ld20(same with ld14p)
   git clone https://github.com/ldrobotSensorTeam/ldlidar_sl_ros2.git
+```
 
 ## FOR SIMULATION AND CONTROLLER
 ```sh
