@@ -7,20 +7,6 @@ from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 
 def generate_launch_description():
-  # RViZ2 settings
-  rviz2_config = os.path.join(
-      get_package_share_directory('ldlidar_sl_ros2'),
-      'rviz2',
-      'ldlidar.rviz'
-  )
-  
-  rviz2_node = Node(
-      package='rviz2',
-      executable='rviz2',
-      name='rviz2_show_ld14',
-      arguments=['-d',rviz2_config],
-      output='screen'
-  )
 
   #Include LDLidar launch file
   ldlidar_launch = IncludeLaunchDescription(
@@ -34,6 +20,5 @@ def generate_launch_description():
   ld = LaunchDescription()
 
   ld.add_action(ldlidar_launch)
-  ld.add_action(rviz2_node)
   
   return ld
