@@ -31,7 +31,7 @@
   sudo apt install -y ros-humble-slam-toolbox
 ```
 
-# FOR JOYSTICK
+## FOR JOYSTICK
 ```sh
   sudo apt install ros-humble-joy*
   sudo apt install joystick jstest-gtk evtest -y
