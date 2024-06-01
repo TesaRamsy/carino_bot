@@ -1,7 +1,28 @@
 ## Robot Package Template
 
-This is a GitHub template. You can make your own copy by clicking the green "Use this template" button.
+## To clone package for diffdrive_arduino :
+ git clone https://github.com/Buzzology/diffdrive_arduino.git
+  
+## for ros2_humble go to diffdrive_arduino directory and run this : 
+  git checkout 3883c0
+## for serial
+  git clone git clone https://github.com/joshnewans/serial
 
-It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `my_bot` to whatever your project's name is.
+## for rplidar ld20(same with ld14p)
+  git clone https://github.com/ldrobotSensorTeam/ldlidar_sl_ros2.git
 
-Note that each directory currently has at least one file in it to ensure that git tracks the files (and, consequently, that a fresh clone has direcctories present for CMake to find). These example files can be removed if required (and the directories can be removed if `CMakeLists.txt` is adjusted accordingly).
+## FOR SIMULATION AND CONTROLLER AND NAV
+  sudo apt install -y ros-humble-gazebo-ros* 
+  sudo apt install -y ros-humble-ros2-control*
+  sudo apt install -y ros-humble-controller-*
+  
+  sudo apt install ros-humble-navigation2
+  sudo apt install ros-humble-nav2-bringup
+  sudo apt install ros-humble-turtlebot3*
+  sudo apt install ros-humble-twist-mux ros-humble-nav2*     
+  sudo apt install ros-humble-robot-localization
+  sudo apt install -y ros-humble-slam-toolbox
+
+## FOR JOYSTICK
+  sudo apt install ros-humble-joy*
+  sudo apt install joystick jstest-gtk evtest -y
