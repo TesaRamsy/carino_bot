@@ -12,9 +12,9 @@
   git clone https://github.com/ldrobotSensorTeam/ldlidar_sl_ros2.git
 
 ## FOR SIMULATION AND CONTROLLER
-  sudo apt install -y ros-humble-gazebo-ros* 
-  sudo apt install -y ros-humble-ros2-control*
-  sudo apt install -y ros-humble-controller-*
+  $ sudo apt install -y ros-humble-gazebo-ros* 
+  $ sudo apt install -y ros-humble-ros2-control*
+  $ sudo apt install -y ros-humble-controller-*
 
 ## FOR NAV . SLAM-TOOLBOX
   sudo apt install ros-humble-navigation2
