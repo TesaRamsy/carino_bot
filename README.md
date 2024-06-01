@@ -11,11 +11,12 @@
 ## for rplidar ld20(same with ld14p)
   git clone https://github.com/ldrobotSensorTeam/ldlidar_sl_ros2.git
 
-## FOR SIMULATION AND CONTROLLER AND NAV
+## FOR SIMULATION AND CONTROLLER
   sudo apt install -y ros-humble-gazebo-ros* 
   sudo apt install -y ros-humble-ros2-control*
   sudo apt install -y ros-humble-controller-*
-  
+
+## FOR NAV . SLAM-TOOLBOX
   sudo apt install ros-humble-navigation2
   sudo apt install ros-humble-nav2-bringup
   sudo apt install ros-humble-turtlebot3*
