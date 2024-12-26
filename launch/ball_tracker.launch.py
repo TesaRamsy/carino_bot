@@ -1,3 +1,4 @@
+
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
@@ -10,7 +11,7 @@ from launch.actions import DeclareLaunchArgument
 
 def generate_launch_description():
 
-    my_package_name='articubot_one'
+    my_package_name='carino_bot'
     sim_mode = LaunchConfiguration('sim_mode')
     sim_mode_dec = DeclareLaunchArgument('sim_mode', default_value='false')
 
